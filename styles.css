@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+
+div{
+	background-color:white;
+	border:1px solid black;
+	padding:5px;
+	margin:10px;
+	width:75%;
+}
+
+div p:nth-child(2){
+	text-align:right;
+	font-style:italic;
+}
